@@ -12,20 +12,20 @@
 
 This project combines a keylogger with sentiment analysis and displays the data through an interactive dashboard.
 🔐 Keylogger Feature Overview
+
 📥 Real-Time Keystroke Logging
 
 Captures every keystroke on the target system and sends it to a centralized server in real-time using secure HTTP POST requests.
+
 🌐 GeoIP Tracking
 
 Automatically fetches the geolocation of the target machine using IP-based lookup — includes country, city, timezone, and ISP details.
+
 💬 Sentiment Analysis
 
 Performs NLP sentiment analysis on logged keystrokes to detect the emotional tone (Positive, Neutral, Negative) of user input.
-🖥️ System Information Capture
 
-Grabs detailed system metadata like hostname, OS, architecture, username, and more to help uniquely identify each victim system.
 📊 Live Monitoring Dashboard
-
 A sleek web-based dashboard (built with Flask or Lovable.dev) allows live visualization of:
 
     Keystrokes
