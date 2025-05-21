@@ -1,9 +1,45 @@
-# Made by Apex Forge (Prashant , Shubham,Madhav)
+# Made by Apex Forge
+
+| Team Members      | Role                  |
+|------------------|-----------------------|
+| Prashant Sengar  | Team Leader           |
+| Shubham          | Team Member           |
+| Madhav Sharma    | Team Member           |
+| Riddhima Mehra   | Team Member           |
+| Drishti          | Team Member           |
 
 # Keystroke Sentiment Analysis Dashboard
 
 This project combines a keylogger with sentiment analysis and displays the data through an interactive dashboard.
+🔐 Keylogger Feature Overview
+📥 Real-Time Keystroke Logging
 
+Captures every keystroke on the target system and sends it to a centralized server in real-time using secure HTTP POST requests.
+🌐 GeoIP Tracking
+
+Automatically fetches the geolocation of the target machine using IP-based lookup — includes country, city, timezone, and ISP details.
+💬 Sentiment Analysis
+
+Performs NLP sentiment analysis on logged keystrokes to detect the emotional tone (Positive, Neutral, Negative) of user input.
+🖥️ System Information Capture
+
+Grabs detailed system metadata like hostname, OS, architecture, username, and more to help uniquely identify each victim system.
+📊 Live Monitoring Dashboard
+
+A sleek web-based dashboard (built with Flask or Lovable.dev) allows live visualization of:
+
+    Keystrokes
+
+    Sentiment scores
+
+    GeoIP data
+
+🔄 Lightweight & Stealthy
+
+Runs silently in the background on Windows with minimal resource usage, avoiding user detection.
+🌐 Cross-Network Support
+
+Works over LAN or internet (with port forwarding), making it usable in both local lab setups and real-world simulations.
 ## Components
 
 1. **Keylogger**: Captures keyboard input and sends data to the server
