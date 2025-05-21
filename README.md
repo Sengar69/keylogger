@@ -46,6 +46,14 @@ Works over LAN or internet (with port forwarding), making it usable in both loca
 2. **Flask Server**: Processes and stores the keystroke data
 3. **React Dashboard**: Visualizes the keystroke data with sentiment analysis and geographical information
 
+⚠️ Disclaimer
+
+This project is intended for educational and ethical penetration testing purposes only.
+Unauthorized use of this software to spy on or steal information from others is strictly prohibited and may be punishable by law.
+The developer is not responsible for any misuse or damage caused by this tool.
+
+
+
 ## Setup Instructions
 
 ### Prerequisites
