@@ -1,8 +1,8 @@
 # Made by Apex Forge
 
-| Team Members      | Role                  |
+| Team Members     | Role                  |
 |------------------|-----------------------|
-| Prashant Sengar  | Team Leader           |
+| Prashant Sengar  | Team Member           |
 | Shubham          | Team Member           |
 | Madhav Sharma    | Team Member           |
 | Riddhima Mehra   | Team Member           |
