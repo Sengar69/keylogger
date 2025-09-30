@@ -1,12 +1,3 @@
-# Made by Apex Forge
-
-| Team Members     | Role                  |
-|------------------|-----------------------|
-| Prashant Sengar  | Team Member           |
-| Shubham          | Team Member           |
-| Madhav Sharma    | Team Member           |
-| Riddhima Mehra   | Team Member           |
-| Drishti          | Team Member           |
 
 # Keystroke Sentiment Analysis Dashboard
 
