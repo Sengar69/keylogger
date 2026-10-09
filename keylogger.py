@@ -36,7 +36,16 @@ def get_geo_info():
     for url in services:
         try:
             res = requests.get(url, timeout=4)
+            # Fix: Check if request was actually successful
+            if res.status_code != 200:
+                continue
+            
             data = res.json()
+            
+            # Fix: Ensure IP data actually exists before returning
+            if not data.get("ip") and not data.get("query"):
+                continue
+                
             return {
                 "ip": data.get("ip") or data.get("query"),
                 "city": data.get("city", "Unknown"),
@@ -118,4 +127,4 @@ def main():
         print(f"Error in main thread: {e}")
 
 if __name__ == "__main__":
-    main() 
+    main()
